@@ -1,0 +1,58 @@
+.header-container {
+  background: url(/images/bg-header-desktop.png);
+}
+.header {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-logo img {
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.header-texto h1 {
+  color: var(--cor-01);
+  padding-bottom: 10px;
+}
+.header-texto p {
+  max-width: 60ch;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--cor-02);
+}
+.header-botao ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.header-botao li {
+  list-style: none;
+}
+.header-botao a {
+  text-decoration: none;
+  color: var(--cor-00);
+  font-weight: bolder;
+}
+.botao-ios {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: var(--cor-03);
+}
+
+.botao-mac {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: var(--cor-04);
+}
+.botao-ios:hover {
+  box-shadow: 0px 0px 4px #1a3834;
+  cursor: pointer;
+}
+.botao-mac:hover {
+  box-shadow: 0px 0px 4px #1e2138;
+  cursor: pointer;
+}
